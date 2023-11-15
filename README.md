@@ -1,5 +1,5 @@
 # CONTACTROCKET
-I spent a few months building this SaaS using Ruby on Rails with Sidekiq background processing to support an army of my special ruby web crawlers tuned specifically for the purpose of rapid lead-generation automation and contact data enrichment for even faster sales prospecting. Collect emails, phone numbers, social media, and then link them by text index proximity confidence scoring. Because coffee is for closers.
+I spent a few months building this SaaS using Ruby on Rails with Sidekiq background processing to support an army of my special ruby web crawlers tuned specifically for the purpose of rapid lead-generation automation and contact data enrichment for even faster sales prospecting. Collect emails, phone numbers, social media, and then link them by text index proximity confidence scoring. I decided to give it away for free instead of monetizing it. Then I realized what a mistake that was as I watch competing products grow to 100 million dollar companies. But whatever, coffee is for closers.
 
 [![CONTACTROCKET](https://img.youtube.com/vi/cXQpZ4bjAEc/0.jpg)](https://www.youtube.com/watch?v=cXQpZ4bjAEc)
 
