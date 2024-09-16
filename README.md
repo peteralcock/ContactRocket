@@ -1,5 +1,7 @@
 # CONTACTROCKET
 Spent a summer building this marketing SaaS using Ruby on Rails and Sidekiq background processing to support an army of ruby web crawlers tuned specifically for rapid lead-generation automation and contact data enrichment for sales prospecting. Bulk collect emails, phone numbers, social media, and then link them by textual index proximity weighted confidence scores.
+
+
 [![CONTACTROCKET](https://img.youtube.com/vi/cXQpZ4bjAEc/0.jpg)](https://www.youtube.com/watch?v=cXQpZ4bjAEc)
 
 ## Deployment
