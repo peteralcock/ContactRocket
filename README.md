@@ -2,7 +2,7 @@
 [![CONTACTROCKET](https://img.youtube.com/vi/cXQpZ4bjAEc/0.jpg)](https://www.youtube.com/watch?v=cXQpZ4bjAEc)
 
 ---------------
-Spent a summer building this marketing SaaS using Ruby on Rails and Sidekiq background processing to support an army of ruby web crawlers tuned specifically for rapid lead-generation automation and contact data enrichment for sales prospecting. Bulk collect emails, phone numbers, social media, and then link them by textual index proximity weighted confidence scores.
+Bulk collect emails, phone numbers, social media, and then link them by textual index proximity weighted confidence scores.
 
 ## Deployment
 PostgreSQL stores the records created from crawls, Redis is used in combination with a bloom filter and hiredis client (for performance) to keep track of all the pending crawl jobs and to track previously crawled URLs. ElasticSearch is used to make all of the returned results searchable, with each added record being asynchroniously indexed by the background workers to prevent bottlenecks. You will want to tune the Redis configuration to use the LRU cache policy (least recently used) for when it needs to choose what links to ultimately abandon after multiple retries. Using LRU will result in punting problematic URLs first when memory starts to bloat on the EC2 instance.
